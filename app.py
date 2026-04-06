@@ -30,7 +30,7 @@ def init_db():
 
 init_db()
 
-# -------------------- Routes --------------------
+# Routes 
 @app.route("/")
 def index():
     return render_template("index.html")
